@@ -1,0 +1,17 @@
+# JetBrains
+.idea
+
+# Packaging
+*.egg-info
+dist
+build
+
+# Cache
+__pycache__
+*.pyc
+
+# Docs
+docs/build
+
+# local env
+.env

@@ -1,0 +1,12 @@
+[project]
+name = "larkbot"
+version = "0.1.0"
+dependencies = [
+    "python-dotenv",
+    "discord.py",
+    "aiohttp",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
