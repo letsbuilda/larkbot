@@ -18,7 +18,7 @@ intents.message_content = True
 
 
 def get_prefix(bot_, message_):
-    extras = ["!"]
+    extras = getenv("PREFIXES", "!").split(",")
     return commands.when_mentioned_or(*extras)(bot_, message_)
 
 
